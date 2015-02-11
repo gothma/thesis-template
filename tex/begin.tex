@@ -1,24 +1,23 @@
 \begin{document}
-\selectlanguage{english}
 
-\subject{Master Thesis}
+\subject{\IfLanguageName{ngerman}{Masterarbeit}{Master Thesis}}
 \title{\mytitle}
 %\subtitle{\mysubtitle}
 \author{\myauthor}
 %\date{date}
 \publishers{
-University of Freiburg\\
-Faculity of Engineering\\
-Computer Science
+\IfLanguageName{ngerman}{Albert-Ludwigs-Universität Freiburg im Breisgau}{University of Freiburg}\\
+\IfLanguageName{ngerman}{Technische Fakultät}{Faculity of Engineering}\\
+\IfLanguageName{ngerman}{Institut für Informatik}{Department of Computer Science}
 }
 \uppertitleback{
-\input{mmd/declaration_de}
+\IfLanguageName{ngerman}{\input{mmd/declaration_de}}{\input{mmd/declaration_en}}
 }
 \lowertitleback{
 \begin{description}
-   \item[Bearbeitungszeitraum] 29.02.-31.07.\\
-   \item[Betreuer] Alfred J. Kwack\\
-   \item[Gutachter] Prof. Düsentrieb
+   \item[\IfLanguageName{ngerman}{Bearbeitungszeitraum}{Work period}] 29.02.-31.07.\\
+   \item[\IfLanguageName{ngerman}{Betreuer}{Advisor}] Alfred J. Kwack\\
+   \item[\IfLanguageName{ngerman}{Prüfer}{Examiner}] Prof. Düsentrieb
 \end{description}
 }
 \dedication{To my dearest gummybear}
