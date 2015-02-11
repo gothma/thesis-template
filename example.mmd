@@ -1,0 +1,102 @@
+base header level: 2
+
+# Example file
+
+This file shows all (multi)markdown features available
+
+## Block elements
+
+### Paragraph and line breaks
+
+Paragraphs are separated by at least one blank line.
+
+Line breaks can be realized by typing two spaces before the line break `\n`  
+A link break without spaces at the end has no effect.
+
+### Headers
+
+There are 6 headers with according latex equivalents:
+
+    # Part
+    ## Chapter
+    ### Section
+    #### Subsection
+    ##### Subsubsection
+    ###### Paragraph
+
+If you don't want to use Part or Chapter, you can set the meta tag `base level header` to 2 or 3 in the according `*.mmd` file. Unfortunatly it cannot be set in the `index.mmd` globally.
+
+### Blockquotes
+
+> This is a blockquote
+> It can be multiline
+
+    > This is a blockquote
+    > It can be multiline
+
+### Lists
+
+This is where markdown beats latex.
+
+#### Unordered List
+
+- Subsequent
+- Unordered
+- List
+
+    - Subsequent
+    - Unordered
+    - List
+
+#### Ordered List
+
+1. These
+2. Are Possible
+3. Too
+
+    1. These
+    2. Are Possible
+    3. Too
+
+#### Descriptions
+
+Description
+:   This is possible too
+
+Item
+:   No more `\item`
+
+### Code Blocks
+
+    This is a code block.
+    It can be created in two ways:
+
+        This is a code block.
+        It is created using indent.
+
+    ```
+    This is a fenced code block
+    It is created using backticks
+    ```
+
+### Footnotes
+
+    You can create footnotes like this[^footnote].
+
+    [^footnote]: Here is the *text* of the **footnote**.
+
+will produce:
+
+You can create footnotes like this[^footnote].
+
+[^footnote]: Here is the *text* of the **footnote**.
+
+
+
+
+
+
+
+
+
+
