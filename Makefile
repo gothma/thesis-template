@@ -11,6 +11,3 @@ distclean:
 
 view:
 	latexmk -f -pv thesis
-
-interactive:
-	latexmk -f pvc thesis
