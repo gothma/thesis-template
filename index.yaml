@@ -1,4 +1,4 @@
-Babel Language: english
+BabelLanguage: english
 Title: Thesis Template
 Mysubtitle: A novel approach for markdown document creation
 Date: 31.07.
@@ -6,7 +6,7 @@ Period: 29.02.-31.07.
 Author: Martin Goth
 Advisor: Alfred J. Kwack
 Examiner: Prof. Dusentrieb
-Latex Input: tex/header
-Latex Input: tex/begin
-Latex Input: introduction
-Latex Input: example
+LatexInput: tex/header
+LatexInput: tex/begin
+LatexInput: introduction
+LatexInput: example
