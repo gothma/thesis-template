@@ -6,5 +6,6 @@ add_cus_dep( 'yaml', 'tex', 0, 'yaml2tex' );
 sub yaml2tex {
     system("multimarkdown -f -o $_[0].tex -t latex $_[0].yaml");
 }
+$out_dir = 'out';
 $pdf_mode=1;
 $dvi_mode=0;
